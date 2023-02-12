@@ -1,4 +1,70 @@
-body {
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 3;
+}
+.web {
+  color: #4d5ae5;
+}
+.studio {
+  color: #2e2f42;
+}
+.navigation {
   font-family: "Roboto", sans-serif;
-  background-color: #e5e5e5;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.contacts {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.hero-section {
+  background: #2e2f42;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 0px 0px 0px 0px;
+}
+.hero-text {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1, 1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin: 188px 473px 292px 473px;
+}
+
+.hero-button {
+  background: #4d5ae5;
+  margin: 356px 635px 188px 635px;
+}
+.button-text {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: ;
 }

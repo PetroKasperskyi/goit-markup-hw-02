@@ -9,41 +9,59 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
   <body>
-    <header class="header-line">
-      <nav>
-        <a href="./index.html"> WebStudio </a>
-        <ul>
-          <li><a href="./index.html"> Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <!-- Header-->
+
+    <header class="page-header">
+      <nav class="navigation">
+        <a class="logo link" href="./index.html">
+          <span class="web">Web</span><span class="studio">Studio </span>
+        </a>
+        <ul class="menu list">
+          <li class="menu-item">
+            <a class="link" href="./index.html"> Studio</a>
+          </li>
+          <li class="menu-item">
+            <a class="link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="menu-item"><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="contacts list">
+          <li>
+            <a class="mail link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="tel-number link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
 
     <main>
       <!-- Hero Section-->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero-section">
+        <h1 class="hero-text">Effective Solutions for Your Business</h1>
+        <button type="button" class="hero-button">
+          <span class="button-text">Order Service</span>
+        </button>
       </section>
       <!--/ Hero Section-->
+
       <!-- About us-->
-      <section>
-        <h2 hidden>Advantages</h2>
-        <ul>
+      <section class="About">
+        <h2 hidden>About us</h2>
+        <ul class="list">
           <li>
             <h3>Strategy</h3>
             <p>
@@ -79,7 +97,7 @@
       <!--What we doing-->
       <section>
         <h2>What are we doing</h2>
-        <ul>
+        <ul class="list">
           <li><img src="./images/img1.jpg" alt="#" width="360" /></li>
           <li><img src="./images/img2.jpg" alt="#" width="360" /></li>
           <li><img src="./images/img3.jpg" alt="#" width="360" /></li>
@@ -89,7 +107,7 @@
       <!--Our team-->
       <section>
         <h2>Our Team</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img src="./images/team-img1.jpg" alt="#" width="264" />
             <h3>Mark Guerrero</h3>
@@ -115,7 +133,7 @@
     </main>
     <!-- Footer-->
     <footer>
-      <a href="./index.html">WebStudio</a>
+      <a class="logo-link" href="./index.html">WebStudio</a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
