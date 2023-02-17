@@ -15,6 +15,11 @@ button:focus {
 }
 .link {
   text-decoration: none;
+  color: #2e2f42;
+}
+.link:hover,
+.link:focus {
+  color: #404bbf;
 }
 /* Header*/
 
@@ -38,10 +43,11 @@ button:focus {
   color: #2e2f42;
   cursor: pointer;
 }
-.navigation:hover,
-.navigation:focus {
-  color: #404bbf;
+.mail,
+.tel-number {
+  color: #434455;
 }
+
 .contacts-item {
   font-weight: 400;
   font-size: 16px;
@@ -57,7 +63,6 @@ button:focus {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.1;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
@@ -67,21 +72,14 @@ button:focus {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 32px;
-  gap: 10px;
 }
 .button-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: ;
+  background-color: #4d5ae5;
 }
 /* About section*/
 .about-header {
@@ -103,7 +101,6 @@ button:focus {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -112,7 +109,6 @@ button:focus {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -120,13 +116,13 @@ button:focus {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
+
   letter-spacing: 0.02em;
 }
 .team-position {
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
+
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -171,5 +167,9 @@ button:focus {
   letter-spacing: 0.02em;
 }
 .project-menu-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
